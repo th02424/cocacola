@@ -114,11 +114,22 @@ div.mainWrap>div.main>div.btns>div.btn{
     cursor: pointer;
 }
 div.mainWrap>div.main>div.btns>div.btn>i{
-    font-size: 16px;
+    display: block;
+    width: calc(100% / 5);
+    float: left;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
 }
-div.mainWrap>div.main>div.btns>div.btn>i:nth-child(3){}
+div.mainWrap>div.main>div.btns>div.btn>i:nth-child(3){
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 0px;
+}
 div.mainWrap>div.main>div.btns>div.btn>span{
-    margin: 0 40px;
+    display: block;
+    width: calc(100% / 5 * 3);
+    float: left;
 }
 
 /* 컨텐츠 공통 */
@@ -214,8 +225,17 @@ div.content.cnt01>div.section>div.article{
 }
 div.content.cnt01>div.section>div.article>div.image{
     height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.5s;
 }
-div.content.cnt01>div.section>div.article>div.image.i1{}
+div.content.cnt01>div.section>div.article>div.image.i1{
+    background-image: url(./css/image/content2\ 01\ .jpg.jpg);
+}
+div.content.cnt01>div.section>div.article>div.image.i1:hover{
+    background-size: 200%;
+}
 div.content.cnt01>div.section>div.article>div.image.i2{}
 div.content.cnt01>div.section>div.article>div.image.i3{}
 div.content.cnt01>div.section>div.article>div.texts{
