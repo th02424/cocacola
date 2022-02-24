@@ -1,0 +1,230 @@
+/* 메뉴탑 */
+
+div.mnTopWrap{
+   background-color: rgb(0, 0, 0);
+   color: #fff;
+   height: 40px;
+}
+div.mnTopWrap>div.menutop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.mnTopWrap>div.menuTop>div.logos{
+    width: calc(100% / 12);
+    height: 40px;
+}
+div.mnTopWrap>div.menuTop>div.logos>h4{}
+div.mnTopWrap>div.menuTop>div.logos>h4>i{}
+div.mnTopWrap>div.menuTop>ul.nav{
+    width: calc(100% / 12 *3);
+    height: 40px;
+}
+div.mnTopWrap>div.menuTop>ul.nav>li{}
+
+/* 헤더 */
+
+div.hdrWrap{
+    background-color: rgb(255, 181, 181);
+    color: #fff;
+    height: 80px;
+}
+div.hdrWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap>div.header>h1{
+    width: calc(100% / 12);
+}
+div.hdrWrap>div.header>h1>b{}
+div.hdrWrap>div.header>ul.nav{
+    width: calc(100% / 12 *4);
+}
+div.hdrWrap>div.header>ul.nav>li{}
+div.hdrWrap>div.header>ul.nav>li>i{}
+
+/* 컨텐츠1 */
+
+div.cntWrap>div.content.cnt01{
+    height: 1640px;
+}
+div.cntWrap>div.content.cnt01>div.header{
+    height: 360px;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    width: calc(100% / 12 * 3);
+    height: 80px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: calc(100% / 12 * 4);
+    height: 40px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
+    width: calc(100% / 12 * 6 - 20px);
+    float: left;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.image{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(187, 187, 187);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h5{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>p{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.sns{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.sns>i{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article{
+    width: calc(100% / 3 - 20px);
+    float: left;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(136, 136, 136);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>p{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.sns{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.sns>i{}
+
+/* 컨텐츠2 */
+
+div.cntWrap>div.content.cnt02{
+    height: 920px;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    background-color: rgb(255, 180, 180);
+    height: 360px;
+}
+div.cntWrap>div.content.cnt02>div.header>h2{
+    width: calc(100% / 12 * 3);
+    height: 80px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: calc(100% / 12 * 8);
+    height: 40px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section{}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+    width: calc(100% - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    width: calc(100% / 2 );
+    height: 400px;
+    background-color: rgb(145, 145, 145);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    width: calc(100% / 2);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
+    text-align: center;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h5{
+    text-align: center;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    text-align: center;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div.btn{
+    text-align: center;
+}
+
+/* 컨텐츠3 */
+
+div.cntWrap>div.content.cnt03{
+    height: 920px;
+}
+div.cntWrap>div.content.cnt03>div.header{
+    height: 360px;
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+    width: calc(100% / 12 * 3);
+    height: 80px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+    width: calc(100% / 12 * 4);
+    margin: 0 auto;
+    line-height: 20px;
+    height: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section{}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    width: calc(100% / 12 * 3 - 20px);
+    float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    width: calc(100% / 12 * 3 -80px);
+    height: 240px;
+    background-color: rgb(133, 133, 133);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{}
+
+/* 푸터 */
+
+div.ftrWrap{
+    background-color: rgb(255, 180, 180);
+    height: 360px;
+}
+div.ftrWrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.ftrWrap>div.footer>h1{
+    margin: 0 auto;
+    width: calc(100% / 12 * 2);
+}
+div.ftrWrap>div.footer>h1>b{}
+div.ftrWrap>div.footer>p{
+    margin: 0 auto;
+    width: calc(100% / 12 * 4);
+}
+div.ftrWrap>div.footer>div.sns{
+    margin: 0 auto;
+    width: calc(100% / 12 * 2);
+}
+div.ftrWrap>div.footer>div.sns>i{}
+
+
+/* 컨텐츠 공용 */
+
+div.cntWrap{}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.header{}
+div.cntWrap>div.content>div.header>h2{}
+div.cntWrap>div.content>div.header>p{}
+div.cntWrap>div.content>div.section{}
+div.cntWrap>div.content>div.section>article{}
+div.cntWrap>div.content>div.section>article>div.image{}
+div.cntWrap>div.content>div.section>article>div.texts{
+    text-align: center;
+}
+div.cntWrap>div.content>div.section>article>div.texts>h3{}
+div.cntWrap>div.content>div.section>article>div.texts>h5{}
+div.cntWrap>div.content>div.section>article>div.texts>p{}

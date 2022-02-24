@@ -1,0 +1,239 @@
+/* 메뉴탑 */
+
+div.mntopWrap{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+div.mntopWrap>div.menutop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 40px;
+}
+div.mntopWrap>div.menutop::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.mntopWrap>div.menutop>div.info{
+    width: calc(100% / 12);
+    float: left;
+}
+/* info를 좌측으로 보내기위해 썼음 */
+div.mntopWrap>div.menutop>div.info>i{}
+div.mntopWrap>div.menutop>ul.nav{
+    width: calc(100% / 12 * 2);
+    float: right;
+}
+/* nav를 우측으로 보내기위해 썼음 */
+div.mntopWrap>div.menutop>ul.nav>li{
+    float: left;
+    margin-left: 20px;
+}
+/* 우측으로 간 nav의 순서를 다시 바꾸기위해 썼음 */
+
+/* 헤더 */
+
+div.hdrWrap{
+    background-color: rgb(255, 139, 139);
+    color: #fff;
+}
+div.hdrWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 80px;
+}
+div.hdrWrap>div.header::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.hdrWrap>div.header>h1{
+    font-size: 20px;
+    float: left;
+}
+/* 로고를 좌측으로 보내기 위해 썼음 */
+div.hdrWrap>div.header>h1>b{}
+div.hdrWrap>div.header>ul.nav{
+    width: calc(100% / 12 * 4);
+    float: right;
+}
+/* nav를 우측으로 보내기 위해 썼음 */
+div.hdrWrap>div.header>ul.nav>li{
+    float: left;
+    margin-left: 20px;
+}
+/* 우측으로 보낸 nav를 다시 좌측으로 보내기 위해 썼음 */
+div.hdrWrap>div.header>ul.nav>li>i{}
+
+/* 컨텐츠공통 */
+
+div.cntWrap{}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content div.header{}
+div.cntWrap>div.content div.header>h2{}
+div.cntWrap>div.content div.header>p{}
+div.cntWrap>div.content div.section{}
+div.cntWrap>div.content div.article{}
+div.cntWrap>div.content div.article>div.image{
+    background-color: #ccc;
+}
+div.cntWrap>div.content>div.section>div.article div.texts{}
+div.cntWrap>div.content>div.section>div.article div.texts>h3{}
+div.cntWrap>div.content>div.section>div.article div.texts>h5{}
+div.cntWrap>div.content>div.section>div.article div.texts>p{}
+
+/* 컨텐츠1 */
+
+div.cntWrap>div.content.cnt01{
+    margin-top: 160px;
+}
+/* 헤더와의 높이를 떨어지게 하기 위해 씀 */
+div.cntWrap>div.content.cnt01>div.header{}
+div.cntWrap>div.content.cnt01>div.header>h2{}
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: calc(100% / 12 * 4);
+    height: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
+    width: calc(50% - 20px);
+    float: left;
+}
+/* 아티클을 아티클 탑의 좌측으로 보내기 위해 썼음 */
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.image{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts{
+    padding-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>h5{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>p{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.sns{}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.texts>div.sns>i{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article{
+    width: calc(100% / 12 * 4 - 20px);
+    float: left;
+}
+/* 아티클을 아티클바텀의 좌측으로 보내기 위해 썼음 */
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image{
+    height: 340px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>p{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.sns{}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>div.sns>i{}
+
+/* 컨텐츠2 */
+
+div.cntWrap>div.content.cnt02{
+    margin-top: 120px;
+}
+/* 컨텐츠 1번과의 높이를 떨어지게 하기 위해 씀 */
+div.cntWrap>div.content.cnt02>div.header{}
+div.cntWrap>div.content.cnt02>div.header>h2{}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: calc(100% / 12 * 8);
+    height: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section{}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{ 
+    height: 400px;
+    float: left;
+}
+/* 이미지를 아티클의 좌측으로 보내기 위해 썼음 */
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    width: calc(100% / 12 * 6);
+    float: left;
+}
+/* 텍스트를 아티클의 좌측으로 보내기 위해 썼음 */
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h5{}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    width: calc(100% / 6 * 4);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div.btn{
+    width: calc(100% / 6 * 2.5);
+    background-color: rgb(131, 45, 45);
+    color: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 컨텐츠3 */
+
+div.cntWrap>div.content.cnt03{
+    margin-top: 320px;
+}
+/* 컨텐츠 2번과의 높이를 떨어지게 하기 위해 씀 */
+div.cntWrap>div.content.cnt03>div.header{}
+div.cntWrap>div.content.cnt03>div.header>h2{}
+div.cntWrap>div.content.cnt03>div.header>p{
+    width: calc(100% / 12 * 4.5);
+}
+div.cntWrap>div.content.cnt03>div.section{}
+div.cntWrap>div.content.cnt03>div.section::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{ 
+    width: calc(100% / 12 * 3 - 20px);
+    height: 240px;
+    float: left;
+}
+/* 아티클의 섹션의 좌측으로 보내기 위해 썼음 */
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{}
+
+/* 푸터 */
+
+div.ftrWrap{
+    margin-top: 160px;
+    background-color: rgb(255, 129, 129);
+}
+/* 컨텐츠 3과의 높이를 떨어지게 하기 위해 씀 */
+div.ftrWrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 360px;
+}
+div.ftrWrap>div.footer>h1{}
+div.ftrWrap>div.footer>h1>b{}
+div.ftrWrap>div.footer>p{
+    width: calc(100% / 12 * 4.5);
+}
+div.ftrWrap>div.footer>div.sns{}
+div.ftrWrap>div.footer>div.sns>i{}

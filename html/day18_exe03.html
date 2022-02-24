@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습</title>
+</head>
+<link rel="stylesheet" href="./css/reset.css">
+<style>
+    div.cntWrap{
+        min-width: 80px;
+    } 
+    div.cntWrap>div.content.cnt01{
+        width: 80%;
+        min-width: 1080px;
+        margin: 0 auto;
+    } 
+    div.cntWrap>div.content.cnt01>div.header{
+        text-align: center;
+    } 
+    div.cntWrap>div.content.cnt01>div.header>h2{
+        font-size: 25px;
+        line-height: 40px;
+        text-transform: capitalize;
+        font-weight: 700;
+    } 
+    div.cntWrap>div.content.cnt01>div.header>p{
+        font-size: 12px;
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+        width: 50%;
+        margin: 20px auto 0;
+    } 
+    div.cntWrap>div.content.cnt01>div.section::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    div.cntWrap>div.content.cnt01>div.section{
+        margin-top: 40px;
+    } 
+    div.cntWrap>div.content.cnt01>div.section>div.article:hover>div.texts{
+        margin-top: -240px;
+    }
+    div.cntWrap>div.content.cnt01>div.section>div.article{
+    width: calc(25% - 20px);
+    float: left;
+    margin: 0 10px;
+    height: 240px;
+    overflow: hidden;
+    } 
+    div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+        background-color: #ccc;
+        height: 240px;
+    } 
+    div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+        padding: 40px 20px 60px;
+        transition: margin-top 0.5s;
+    } 
+    div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: capitalize;
+    } 
+    div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+        line-height: 20px;
+        font-size: 12px;
+        height: 80px;
+        overflow: hidden;
+        margin-top: 20px;
+    } 
+</style>
+<body>
+    <div class="cntWrap">
+        <div class="content cnt01">
+            <div class="header">
+                <h2>content title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, nostrum cupiditate animi quis expedita minima omnis officiis dolor ex exercitationem, sunt sit provident distinctio error aliquam perferendis hic nobis temporibus!</p>
+            </div>
+            <div class="section">
+                <div class="article">
+                    <div class="image"></div>
+                    <div class="texts">
+                        <h3>segment title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores esse ea non molestias porro, voluptatem, beatae sit at fugiat exercitationem nulla ratione odio sequi dolor inventore nostrum architecto reiciendis.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image"></div>
+                    <div class="texts">
+                        <h3>segment title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores esse ea non molestias porro, voluptatem, beatae sit at fugiat exercitationem nulla ratione odio sequi dolor inventore nostrum architecto reiciendis.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image"></div>
+                    <div class="texts">
+                        <h3>segment title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maiores esse ea non molestias porro, voluptatem, beatae sit at fugiat exercitationem nulla ratione odio sequi dolor inventore nostrum architecto reiciendis.</p>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="image"></div>
+                    <div class="texts">
+                        <h3>segment title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit hic temporibus veritatis consequatur quia exercitationem dolor aspernatur ex necessitatibus in, sint possimus eos quibusdam facilis maiores voluptatibus repellat. Deleniti?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
