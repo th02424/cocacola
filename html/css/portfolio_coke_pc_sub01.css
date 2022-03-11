@@ -1,0 +1,414 @@
+/* 헤더 */
+
+div.hdrWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 80px;
+    text-align: center;
+}
+div.hdrWrap>div.header::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+div.hdrWrap>div.header>i{ 
+    float: left;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+div.hdrWrap>div.header>div.image{
+    width: calc(100% / 12 * 2);
+    height: 80px;
+    float: left;
+    background-image: url('./images/Coca-Cola-Logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: calc(100%  / 12 * 4 + 20px);
+}
+div.hdrWrap>div.header>ul.nav{
+    float: right;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    float: left;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 24px;
+}
+/* 메인 */
+
+div.mainWrap>div.main{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.mainWrap>div.main>div.texts{
+    text-align: center;
+    margin-top: 80px;
+}
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 20px;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+div.mainWrap>div.main>div.images{
+    margin-top: 40px;
+}
+div.mainWrap>div.main>div.images::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+div.mainWrap>div.main>div.images>div.image{
+    height: 520px;
+    width: calc(100% / 12 * 4 - 20px);
+}
+div.mainWrap>div.main>div.images>div.image.i1{
+    background-image: url('./images/coca-cola-zero-3D-model_600.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: left;
+    margin-left: 180px;
+}
+div.mainWrap>div.main>div.images>div.image.i2{
+    background-image: url('./images/hr0axjjf-900.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: right;
+    margin-right: 180px;
+}
+
+/* 컨텐츠 공통영역 */
+
+div.cntWrap{
+    margin-top: 80px;
+}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.header{
+    text-align: center;
+}
+div.cntWrap>div.content>div.header>h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+div.cntWrap>div.content>div.header>p{
+    font-size: 20px;
+    overflow: hidden;
+    height: 40px;
+    line-height: 20px;
+    margin:  0 auto;
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.section>div.article>div.texts{
+    text-align: center;
+}
+div.cntWrap>div.content>div.section>div.article>div.texts>h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+div.cntWrap>div.content>div.section>div.article>div.texts>h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.section>div.article>div.texts>p{
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+div.cntWrap>div.content>div.section>div.article>div.texts>div.sns{
+    font-size: 40px;
+    line-height: 80px;
+}
+
+/* 컨텐츠1 */
+
+div.cntWrap>div.content.cnt01{
+    width: 100vw;  
+    max-width: none;
+}
+div.cntWrap>div.content.cnt01>div.header{
+    background-color: #c0fc4d;
+    height: 400px;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    padding-top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: 30%;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1){
+    float: left;
+    margin-left: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2){
+    float: right;
+    margin-right: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article{
+    width: calc(100% / 12 * 4 + 20px);
+    margin-top: -160px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+    height: 480px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
+    background-image: url('./images/11d5fa13f6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i2{
+    background-image: url('./images/7890475_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
+    margin-top: 40px;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h5{
+    margin-top: 40px;
+    height: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+    height: 80px;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.sns{
+    margin-top: 40px;
+}
+
+/* 컨텐츠2 */
+
+div.cntWrap>div.content.cnt02{
+    max-width: none;
+    width: 100vw;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    background-color: #219451;
+    height: 1000px;
+}
+div.cntWrap>div.content.cnt02>div.header>h2{
+    margin-top: 800px;
+    padding-top: 80px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: 30%;
+}
+div.cntWrap>div.content.cnt02>div.section{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: -720px;
+}
+div.cntWrap>div.content.cnt02>div.section::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1){
+    margin-left: 0;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+    width: calc(100% / 12 * 3);
+    float: left;
+    margin-left: 125px;
+    box-shadow: 20px 20px 20px 20px rgb( 0.4 , 0.4 , 0.4 , 0.4);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 320px;
+    background-color: #fff;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i1{
+    background-image: url('./images/4_Seagram\'s\ Lime_\(L\)_234x700.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i2{
+    background-image: url('./images/2_Seagram\'s\ Plain_\(L\)_234x700.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i3{
+    background-image: url('./images/1_Seagram\'s\ Lemon_\(L\)_234x700.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    background-color: #fff;
+    padding-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
+    font-size: 24px;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    height: 80px;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div.sns{
+    line-height: 40px;
+    padding: 40px 0;
+}
+
+/* 컨텐츠3 */
+
+div.cntWrap>div.content.cnt03>div.header>h2{
+    padding-top: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section::after{
+    display: block;
+    clear: both;
+    content:'';
+}
+div.cntWrap>div.content.cnt03>div.section{
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    float: left;
+    width: calc(100% / 12 * 11 - 20px);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    height: 400px;
+    width: calc(100% / 12 * 7);
+}
+
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
+    background-image: url('./images/massism-05-cherry-02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i2{
+    background-image: url('./images/coke_with_coffee\ \(1\).jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: right;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts:nth-child(2){
+    margin-right: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{
+    float: right;
+    width: calc(100% / 12 * 4 - 20px);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts:nth-child(1){
+    float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{
+    margin-top: 80px;
+    height: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav{
+    float: left;
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav>li:nth-child(1){
+    margin-left: 70px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav>li{
+    font-size: 24px;
+    margin-left: 200px;
+    float: left;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* 푸터 */
+
+div.ftrWrap{
+    background-color: #fe0000;
+    color: #000;
+}
+div.ftrWrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+div.ftrWrap>div.footer::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.ftrWrap>div.footer>div.image{
+    width: calc(100% / 12 * 2);
+    height: 80px;
+    background-image: url('./images/Coca-Cola_logo_white.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>p{
+    width: calc(100% / 12 * 8);
+    line-height: 20px;
+    height: 60px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.sns{
+    text-align: center;
+    font-size: 30px;
+}
+div.ftrWrap>div.footer>div.sns>i{
+    margin: 0 20px;
+    line-height: 80px;
+    cursor: pointer;
+}
+div.ftrWrap>div.footer>h4{
+    line-height: 20px;
+    font-size: 20px;
+    float: right;
+}

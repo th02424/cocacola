@@ -1,0 +1,19 @@
+div.hdrWrap>div.header{
+  max-width: 420px;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+}
+div.hdrWrap>div.header>i{
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+div.hdrWrap>div.header>div.image{
+  width: calc(100% / 4 * 0.7);
+  height: 40px;
+  margin-left: 120px;
+}
+div.mainWrap>div.main>div.texts>h2{
+  font-size: ;
+}

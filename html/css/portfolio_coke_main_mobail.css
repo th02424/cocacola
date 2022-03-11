@@ -1,0 +1,218 @@
+div.hdrWrap>div.header{
+  max-width: 420px;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+}
+div.hdrWrap>div.header>i{
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+div.hdrWrap>div.header>div.image{
+  width: calc(100% / 4 * 0.7);
+  height: 40px;
+  margin-left: 120px;
+}
+div.mainWrap{
+  margin-top: 20px;
+}
+div.mainWrap>div.main>h2{
+  font-size: 18px;
+  line-height: 40px;
+}
+div.mainWrap>div.main>div.image{
+  height: 200px; 
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+  height: 320px;
+  width: calc(100% / 4 * 1.5);
+}
+div.cntWrap>div.content.cnt01>div.header{
+  width: calc(100% / 4 * 2.5);
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+  font-size: 14px;
+  margin-top: -120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+  width: calc(100% / 4 * 2.4);
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
+  display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+  font-size: 12px;
+  height: 120px;
+  margin-top: -60px;
+}
+div.cntWrap{
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.header{
+  height: 80px;
+  padding: 0;
+}
+div.cntWrap>div.content.cnt02>div.header>h2{
+  font-size: 18px;
+  line-height: 80px;
+  margin: 0 auto;
+  width: calc(100% / 4);
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+  display: none;
+}
+div.cntWrap>div.content.cnt02>div.section{
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article{
+  width: 50%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.image{
+  height: 160px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.texts>h3{
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: -60px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.texts>h5{
+  display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.texts>p{
+  font-size: 12px;
+  height: 80px;
+  width: 200%;
+  margin-left: -30px; 
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:nth-child(2)~div.article{
+  margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
+  width: calc(100% / 4 * 2 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.image{
+  height: 120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.texts>h3{
+  font-size: 12px;
+  margin-top: 20px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.texts>p{
+  font-size: 10px;
+  height: 40px;
+  width: 100%;
+  margin-top:0;
+}
+div.cntWrap>div.content>div.header>h2{
+  font-size: 18px;
+}
+div.cntWrap>div.content.cnt03>div.section{
+  margin-top: 40px;
+  padding: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-child(1){
+  margin-left: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-child(3){
+  display: block;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+  width: calc(100% / 3 - 20px);
+  margin: 0 10px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+  height: 120px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{
+  font-size: 12px;
+  margin-top: 0;
+  line-height: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h5{
+  font-size: 10px;
+  margin-top: 0px;
+  line-height: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{
+  font-size: 10px;
+  height: 40px;
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>div.sns{
+  font-size: 25px;
+}
+div.cntWrap>div.content.cnt04>div.header>h2{
+  font-size: 18px;
+  line-height: 40px;
+}
+div.cntWrap>div.content.cnt04>div.header>p{
+  display: none;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
+  margin-top: -100px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
+  height: 200px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts{
+  width: 50%;
+  box-shadow: 0px 0px;
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.image{
+  width: 50%;
+  height: 160px;
+  margin-top: -230px;
+  box-shadow: rgb(124, 124, 124) 6px 6px ;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>h3{
+  font-size: 16px;
+  line-height: 40px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>p{
+  font-size: 10px;
+  height: 120px;
+  margin-top: 0 ;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.sns{
+  font-size: 25px;
+}
+div.cntWrap>div.content.cnt04>div.section>ul.nav{
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt04>div.section>ul.nav>li{
+  font-size: 12px;
+  margin: 0 6px;
+  line-height: 40px;
+}
+div.ftrWrap{
+  padding: 20px 0;
+  margin-top: 0;
+}
+div.ftrWrap>div.footer{
+  width: 90%;
+  max-width: 420px;
+  padding: 0;
+}
+div.ftrWrap>div.footer>div.image{
+  height: 20px;
+  width: calc(100% / 4 * 0.6);
+}
+div.ftrWrap>div.footer>p{
+  font-size: 8px;
+  height: 40px;
+}
+div.ftrWrap>div.footer>div.sns{
+  font-size: 20px;
+}
+div.ftrWrap>div.footer>div.sns>i{
+  margin: 0 10px;
+  line-height: 20px;
+}
+div.ftrWrap>div.footer>h4{
+  margin-top: -10px;
+  font-size: 10px;
+}
