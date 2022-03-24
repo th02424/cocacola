@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        div.artview{
+            width: 80%;
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+        div.artview>div.artGroup::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        div.artview>div.artGroup{
+            width:1000%;
+            float: left;
+            height: 500px;
+        }
+        div.artview>div.artGroup>div.article{
+            width: calc(100% / 10);
+        }
+        div.artview>div.artGroup>div.article:nth-child(1){
+            background-color: rgb(83, 0, 0);
+        }
+        div.artview>div.artGroup>div.article:nth-child(2){
+            background-color: rgb(184, 6, 6);
+        }
+        div.artview>div.artGroup>div.article:nth-child(3){
+            background-color: rgb(214, 124, 124);
+        }
+        div.artview>div.artGroup>div.article:nth-child(4){
+            background-color: rgb(209, 68, 68);
+        }
+        div.artview>div.artGroup>div.article:nth-child(5){
+            background-color: rgb(211, 168, 168);
+        }
+        div.artview>div.artGroup>div.article:nth-child(6){
+            background-color: rgb(65, 18, 18);
+        }
+        div.artview>div.artGroup>div.article:nth-child(7){
+            background-color: rgb(255, 116, 116);
+        }
+        div.artview>div.artGroup>div.article:nth-child(8){
+            background-color: rgb(255, 179, 179);
+        }
+        div.artview>div.artGroup>ul.paging{
+            width: 20%;
+            height: 20px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 20px;
+        }
+        div.artviwe>div.artGroup>ul.paging{}
+        div.artviwe>div.artGroup>ul.paging>li{
+            background-color: #000;
+            
+        }
+        div.artviwe>button{}
+    </style>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script></script>
+</head>
+<body>
+    <div class="view">
+        <div class="artGroup">
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+        </div>
+        <ul class="paging">
+            <li class="s"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <button>left</button>
+        <button>right</button>
+    </div>
+</body>
+</html>
