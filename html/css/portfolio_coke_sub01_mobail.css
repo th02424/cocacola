@@ -1,0 +1,194 @@
+div.hdrWrap>div.header{
+  max-width: 420px;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+}
+div.hdrWrap>div.header>i{
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+div.hdrWrap>div.header>div.image{
+  width: calc(100% / 4 * 0.7);
+  height: 40px;
+  margin-left: 120px;
+}
+div.mainWrap{
+  margin-top: 20px;
+}
+div.mainWrap>div.main{
+  width: 90%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+div.mainWrap>div.main>div.texts>h2{
+  font-size: 18px;
+}
+div.mainWrap>div.main>div.texts>p{
+  display: none;
+}
+div.mainWrap>div.main>div.images>div.image{
+  height: 240px;
+  width: calc(100% / 4 * 2 - 20px);
+}
+div.mainWrap>div.main>div.images>div.image.i1{
+  margin-left: 0;
+}
+div.mainWrap>div.main>div.images>div.image.i2{
+  margin-right: 0;
+}
+div.cntWrap>div.content.cnt01{
+  margin: 0 auto;
+  max-width: 420px;
+}
+div.cntWrap>div.content.cnt01>div.header{
+  margin-top: -40px;
+  height: 200px;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+  font-size: 12px;
+  margin-top: 0;
+  width: 50%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(1){
+  margin-left: 0;
+  
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2){
+  margin-right: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article{
+  width: calc(100% / 4 * 2 - 20px);
+  margin-top: -80px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+  height: 200px;
+}div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+  font-size: 10px;
+  margin-top: 0px;
+  height: 60px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.sns{
+  font-size: 25px;
+}
+div.cntWrap>div.content.cnt02>div.header>h2{
+  margin-top: 540px;
+  font-size: 18px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+  display: none;
+}
+div.cntWrap>div.content.cnt02>div.header{
+  height: 480px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1){
+  margin-left: 0;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2){
+  margin-left: 113px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(3){
+  margin-left: 225px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+  margin-top: -240px;
+  width: calc(100% / 4 * 1.2);
+  margin-left: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+  height: 120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+  height: 120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
+  font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+  font-size: 10px;
+  height: 40px;
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+  padding-top: 40px;
+  font-size: 18px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
+  height: 240px;
+  width: 116%;
+  margin-top: -40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{
+  width: 116%;
+  padding: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts:nth-child(2){
+  margin-right: -42px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>h3{
+  font-size: 18px;
+  width: 50%;
+  height: 40px;
+  float: left;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{
+  font-size: 10px;
+  width: 50%;
+  height: 80px;
+  float: right;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i2{
+  width: 116%;
+  height: 240px;
+  float: none;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav{
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav>li:nth-child(1){
+  margin-left: 22px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.nav>li{
+  font-size: 12px;
+  margin: 0 23px;
+  line-height: 40px;
+}
+div.ftrWrap{
+  padding: 20px 0;
+  margin-top: 0;
+}
+div.ftrWrap>div.footer{
+  width: 90%;
+  max-width: 420px;
+  padding: 0;
+}
+div.ftrWrap>div.footer>div.image{
+  height: 20px;
+  width: calc(100% / 4 * 0.6);
+}
+div.ftrWrap>div.footer>p{
+  font-size: 8px;
+  height: 40px;
+}
+div.ftrWrap>div.footer>div.sns{
+  font-size: 20px;
+}
+div.ftrWrap>div.footer>div.sns>i{
+  margin: 0 10px;
+  line-height: 20px;
+}
+div.ftrWrap>div.footer>h4{
+  margin-top: -10px;
+  font-size: 10px;
+}

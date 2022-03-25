@@ -1,0 +1,22 @@
+div.hdrWrap>div.header{
+  width: 90%;
+  max-width: 700px;
+}
+div.hdrWrap>div.header>ul.nav{
+  display: none;
+}
+div.mainWrap>div.main{
+  width: 100vw;
+}
+div.mainWrap>div.main>div.texts>p{
+  display: none;
+}
+div.mainWrap>div.main>div.texts>h2{
+  font-size: 24px;
+  margin-top: 40px;
+}
+div.mainWrap>div.main>div.image{
+  height: 480px;
+  width: 100vw;
+  margin-top: 40px;
+}

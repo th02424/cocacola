@@ -1,0 +1,420 @@
+/* 헤더 */
+
+div.hdrWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    line-height: 80px;
+    text-align: center;
+}
+div.hdrWrap>div.header::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+div.hdrWrap>div.header>i{ 
+    float: left;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+div.hdrWrap>div.header>div.image{
+    width: calc(100% / 12 * 2);
+    height: 80px;
+    float: left;
+    background-image: url('./images/Coca-Cola-Logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: calc(100%  / 12 * 4 + 20px);
+}
+div.hdrWrap>div.header>ul.nav{
+    float: right;
+}
+div.hdrWrap>div.header>ul.nav>li{
+    float: left;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* 메인 */
+
+div.mainWrap{
+  margin-top: 80px;
+}
+div.mainWrap>div.main{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+div.mainWrap>div.main::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+div.mainWrap>div.main>div.image.i1{
+  height: 520px;
+  width: calc(100% / 12 * 9 + 20px);
+  background-image: url('./images/2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-left: 40px;
+}
+div.mainWrap>div.main>div.texts{
+  float: right;
+  margin-top: -480px;
+  width: calc(100% / 12 * 4);
+  margin-right: 40px;
+  padding-left: 20px;
+}
+div.mainWrap>div.main>div.texts>h2{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 40px;
+}
+div.mainWrap>div.main>div.texts>p{
+  margin-top: 40px;
+  font-size: 20px;
+  overflow: hidden;
+  height: 80px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+div.mainWrap>div.main>div.image.i2{
+  height: 360px;
+  width: calc(100% / 12 * 6 - 20px);
+  float: right;
+  background-image: url('./images/https_2F2Fhypebeast.com2Fimage2F20182F062Fcoca-cola-clear-japan-release-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-right: 40px;
+  margin-top: -280px;
+}
+
+/* 컨텐츠 공통영역 */
+
+div.cntWrap{
+  margin-top: 160px;
+}
+div.cntWrap>div.content{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+div.cntWrap>div.content>div.header{
+  text-align: center;
+}
+div.cntWrap>div.content>div.header>h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+div.cntWrap>div.content>div.header>p{
+  margin: 0 auto;
+  font-size: 20px;
+  overflow: hidden;
+  margin-top: 40px;
+  line-height: 20px;
+  height: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.image{
+  background-color: #ccc;
+}
+div.cntWrap>div.content>div.section div.article>div.texts{
+  text-align: center;
+  margin-top: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>h5{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 20px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>p{
+  font-size: 20px;
+  overflow: hidden;
+  line-height: 20px;
+  margin-top: 40px;
+}
+div.cntWrap>div.content>div.section div.article>div.texts>div.sns{
+  font-size: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* 컨텐츠1 */
+
+div.cntWrap>div.content.cnt01>div.header>p{
+  width: calc(100% / 12 * 3.7);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
+  width: calc(100% / 12 * 4 - 20px);
+  margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article>div.image{
+  height: 200px;
+  margin-top: 40px;
+  background-image: url('./images/다운로드\ \(8\).jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm{
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article{
+  float: left;
+  width: 200px;
+  width: calc(100% / 3 - 153px);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article:nth-child(1){
+  margin-left: 70px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article:nth-child(2){
+  margin: 0 160px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image{
+  height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image.i1{
+  background-image: url('./images/오렌지.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image.i2{
+  background-image: url('./images/알로에.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.image.i3{
+  background-image: url('./images/포도.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.article>div.texts>p{
+  height: 80px;
+}
+
+/* 컨텐츠2 */
+
+div.cntWrap>div.content.cnt02>div.section{
+  margin-top: 80px;
+}
+div.cntWrap>div.content.cnt02>div.section::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+div.cntWrap>div.content.cnt02>div.section>div.article{
+  float: left;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2){
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.image{
+  float: right;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(1)>div.texts{
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(2)>div.texts{
+  float: left;
+  margin-top: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+  height: 400px;
+  width: calc(100% / 12 * 6);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i1{
+  background-image: url('./images/onethepl-rpet-case-02.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  float: left;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image.i2{
+  background-image: url('./images/onethepl-rpet-case-03.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+  width: calc(100% / 12 * 6 - 20px);
+  float: right;
+  margin-top: -400px;
+  padding: 40px 90px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+  height: 160px;
+}
+
+/* 컨텐츠3 */
+
+div.cntWrap>div.content.cnt03{
+  width: 100vw;
+  max-width: 1920px;
+}
+div.cntWrap>div.content.cnt03>div.header{
+  background-color: #f9cc01;
+  padding: 80px 0 160px;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  line-height: 40px;
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 20px;
+  width: calc(100% / 12 * 3.7);
+  margin-top: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: -120px;
+}
+div.cntWrap>div.content.cnt03>div.section::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+  float: left;
+  width: calc(100% / 4 - 85px);
+  margin: 0 35px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+  height: 320px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
+  background-image: url('./images/비타민워터.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #fff;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i2{
+  background-image: url('./images/다운로드\ \(10\).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i3{
+  background-image: url('./images/다운로드\ \(11\).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i4{
+  background-image: url('./images/다운로드\ \(12\).jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>p{
+  height: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.menu{
+  float: left;
+  margin-top: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.menu>li:nth-child(1){
+  margin-left: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.menu>li{
+  float: left;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 170px;
+  cursor: pointer;
+}
+
+/* 푸터 */
+
+div.ftrWrap{
+  background-color: #fe0000;
+  color: #000;
+}
+div.ftrWrap>div.footer{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+div.ftrWrap>div.footer::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+div.ftrWrap>div.footer>div.image{
+  width: calc(100% / 12 * 2);
+  height: 80px;
+  background-image: url('./images/Coca-Cola_logo_white.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div.ftrWrap>div.footer>p{
+  width: calc(100% / 12 * 8);
+  line-height: 20px;
+  height: 60px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+div.ftrWrap>div.footer>div.sns{
+  text-align: center;
+  font-size: 30px;
+}
+div.ftrWrap>div.footer>div.sns>i{
+  margin: 0 20px;
+  line-height: 80px;
+  cursor: pointer;
+}
+div.ftrWrap>div.footer>h4{
+  line-height: 20px;
+  font-size: 20px;
+  float: right;
+}

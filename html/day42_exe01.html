@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+
+        /* 문제1 */
+
+        div.view{
+            width: 80%;
+            max-width: 1080px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        div.view>div.artGroup{
+            width: 500%;
+            transition: all 0.5s;
+        }
+        div.view>div.artGroup::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        div.view>div.artGroup>div.article{
+            width: calc(100% / 5);
+            height: 250px;
+            float: left;
+        }
+        div.view>div.artGroup>div.article:nth-child(1){
+            background-color: rgb(153, 0, 0);
+        }
+        div.view>div.artGroup>div.article:nth-child(2){
+            background-color: rgb(53, 9, 9);
+        }
+        div.view>div.artGroup>div.article:nth-child(3){
+            background-color: rgb(236, 169, 169);
+        }
+        div.view>div.artGroup>div.article:nth-child(4){
+            background-color: rgb(202, 68, 68);
+        }
+        div.view>div.artGroup>div.article:nth-child(5){
+            background-color: rgb(133, 63, 63);
+        }
+        button{}
+
+
+        /* 문제2 */
+
+
+        div.view2{
+            width: 80%;
+            max-width: 1080px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        div.view2>div.artGroup2::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        div.view2>div.artGroup2{
+            transition: all 0.5s;
+            width: 500%;
+            position: relative;
+        }
+        div.view2>div.artGroup2>div.article2{
+            float: left;
+            height: 500px;
+            width: calc(100% / 5);
+        }
+        div.view2>div.artGroup2>div.article2:nth-child(1){
+            background-color: rgb(128, 0, 0);
+        }
+        div.view2>div.artGroup2>div.article2:nth-child(2){
+            background-color: rgb(0, 0, 0);
+        }
+        div.view2>div.artGroup2>div.article2:nth-child(3){
+            background-color: rgb(230, 118, 118);
+        }
+        div.view2>div.artGroup2>div.article2:nth-child(4){
+            background-color: rgb(207, 178, 178);
+        }
+        div.view2>div.artGroup2>div.article2:nth-child(5){
+            background-color: rgb(66, 30, 30);
+        }
+        div.view2>ul.button::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        div.view2>ul.button{
+            width: 20%;
+            height: 20px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 20px;
+        }
+        div.view2>ul.button>li{
+            width: 20px;
+            height: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+            float: left;
+            margin-left: 100%;
+            margin: 0px 5px;
+            cursor: pointer;
+            transition: width 0.5s;
+        }
+        div.view2>ul.button>li.p{
+            width: 30px;
+        }
+
+        /* 문제3 */
+
+
+        div.view3{
+            width: 80%;
+            max-width: 1080px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        div.view3>div.thumb{}
+        div.view3>div.thumb>div.thumbView{
+            background-color: rgb(124, 63, 63);
+            height: 500px;
+            width: 100%;
+            cursor: pointer;
+        }
+        div.view3>div.thumb>div.thumbGroup{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails{
+            height: 100px;
+            width: calc(100% / 5 - 10px);
+            float: left;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(1){
+            background-color: rgb(255, 124, 124);
+            margin-left: 0;
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(2){
+            background-color: rgb(31, 9, 9);
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(3){
+            background-color: rgb(207, 159, 159);
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(4){
+            background-color: rgb(255, 0, 0);
+        }
+        div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(5){
+            background-color: rgb(134, 0, 0);
+        }
+
+    </style>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+       $(function(){// 제이쿼리 시작
+        var  i=0;
+        
+        $('button').eq(0).click(function(){
+            i--;
+            if(i <= 0){
+                i = 0 ;
+            }
+            $('.artGroup').css('margin-left',i*-100+'%');
+        });
+
+        $('button').eq(1).click(function(){
+            i++;
+            if(i >= 4){
+                i = 4;
+            }
+            $('.artGroup').css('margin-left',i*-100+'%');
+        });
+    
+
+    //    문제2
+
+
+    var s=0;
+
+        $('ul.button>li').click(function(){
+            $('ul.button>li').removeClass('p');
+            $(this).addClass('p');
+            s = $(this).index();
+            $('.artGroup2').css('margin-left', s * -100 + '%');
+        });
+
+
+
+   //     문제3
+
+        var k = 0;
+
+        $('.thumbnails').click(function(){
+            var img = $(this).css('background-color');
+            $('.thumbView').css('.thumbnails',img);
+            $(this).eq(k).css('.thumbView',img);
+        });
+
+
+     });//끝
+    </script>
+</head>
+<body>
+
+    <!-- 문제1 -->
+
+    <div class="view">
+        <div class="artGroup">
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+            <div class="article"></div>
+        </div>
+    </div>
+    <button>left</button>
+    <button>right</button>
+
+
+    <!-- 문제2 -->
+
+    <div class="view2">
+        <div class="artGroup2">
+            <div class="article2"></div>
+            <div class="article2"></div>
+            <div class="article2"></div>
+            <div class="article2"></div>
+            <div class="article2"></div>
+        </div>
+        <ul class="button">
+            <li class="p"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- 문제3 -->
+
+    <div class="view3">
+        <div class="thumb">
+            <div class="thumbView"></div>
+            <div class="thumbGroup">
+                <div class="thumbnails"></div>
+                <div class="thumbnails"></div>
+                <div class="thumbnails"></div>
+                <div class="thumbnails"></div>
+                <div class="thumbnails"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
