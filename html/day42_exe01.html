@@ -45,7 +45,6 @@
         div.view>div.artGroup>div.article:nth-child(5){
             background-color: rgb(133, 63, 63);
         }
-        button{}
 
 
         /* 문제2 */
@@ -77,7 +76,7 @@
             background-color: rgb(128, 0, 0);
         }
         div.view2>div.artGroup2>div.article2:nth-child(2){
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(129, 101, 101);
         }
         div.view2>div.artGroup2>div.article2:nth-child(3){
             background-color: rgb(230, 118, 118);
@@ -126,12 +125,12 @@
             margin: 0 auto;
             margin-top: 40px;
         }
-        div.view3>div.thumb{}
         div.view3>div.thumb>div.thumbView{
             background-color: rgb(124, 63, 63);
             height: 500px;
             width: 100%;
             cursor: pointer;
+            transition: all 0.5s;
         }
         div.view3>div.thumb>div.thumbGroup{
             display: block;
@@ -144,6 +143,7 @@
             float: left;
             margin-left: 12px;
             cursor: pointer;
+            margin-top: 20px;
         }
         div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(1){
             background-color: rgb(255, 124, 124);
@@ -160,6 +160,52 @@
         }
         div.view3>div.thumb>div.thumbGroup>div.thumbnails:nth-child(5){
             background-color: rgb(134, 0, 0);
+        }
+
+
+        /* 문제4 */
+
+        div.view4{
+            width: 80%;
+            max-width: 1080px;
+            margin: 0 auto;
+            margin-top: 160px;
+        }
+        div.view4>div.thumb2>div.thumbView2{
+            background-color: rgb(49, 0, 0);
+            height: 500px;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        div.view4>div.thumb2>div.thumbGroup2::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2{
+            height: 100px;
+            width: calc(100% / 5 - 10px);
+            float: left;
+            margin-left: 12px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2:nth-child(1){
+            background-color: rgb(255, 60, 60);
+            margin-left: 0;
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2:nth-child(2){
+            background-color: rgb(255, 157, 157);
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2:nth-child(3){
+            background-color: rgb(94, 68, 68);
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2:nth-child(4){
+            background-color: rgb(126, 18, 18);
+        }
+        div.view4>div.thumb2>div.thumbGroup2>div.thumbnails2:nth-child(5){
+            background-color: rgb(209, 59, 59);
         }
 
     </style>
@@ -205,10 +251,17 @@
 
         $('.thumbnails').click(function(){
             var img = $(this).css('background-color');
-            $('.thumbView').css('.thumbnails',img);
-            $(this).eq(k).css('.thumbView',img);
+            $('.thumbView').css('background-color',img);
         });
 
+
+    //    문제4
+
+        var l =0;
+        $('.thumbnails2').click(function(){
+            var im = $(this).css('background-color');
+            $('.thumbView2').css('background-color',im);
+        });
 
      });//끝
     </script>
@@ -260,6 +313,21 @@
                 <div class="thumbnails"></div>
                 <div class="thumbnails"></div>
                 <div class="thumbnails"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 문제4 -->
+
+    <div class="view4">
+        <div class="thumb2">
+            <div class="thumbView2"></div>
+            <div class="thumbGroup2">
+                <div class="thumbnails2"></div>
+                <div class="thumbnails2"></div>
+                <div class="thumbnails2"></div>
+                <div class="thumbnails2"></div>
+                <div class="thumbnails2"></div>
             </div>
         </div>
     </div>
